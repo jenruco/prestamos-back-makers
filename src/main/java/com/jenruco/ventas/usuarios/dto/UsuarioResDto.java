@@ -15,7 +15,6 @@ public class UsuarioResDto {
     private Long id;
     private String nombre;
     private String email;
-    private String password;
     private Integer rolId;
     private Boolean activo = true;
     private LocalDateTime fechaCreacion;
