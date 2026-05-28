@@ -1,0 +1,9 @@
+curl --location 'http://localhost:8080/api/usuarios' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=EAD2C62C088FA3A00F5029CA62C87146' \
+--data-raw '{
+    "nombre": "Catalina Pérez",
+    "email": "cata@jen.com",
+    "password": "123456",
+    "rolId": 1
+}'
